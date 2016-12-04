@@ -12,7 +12,7 @@ class CalculatorClass(object):
      until finishing and returning the cumulative summation.
     """
 
-	def sum(num_list):
+	def sum(self, num_list):
 		acum = 0
 		for i in num_list:
 			acum = i + acum
