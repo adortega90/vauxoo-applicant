@@ -6,6 +6,7 @@ Import math library for use of the function floor
 """
 import math
 
+
 class PrimeClass(object):
     """
     How to work function is_prime(num)
