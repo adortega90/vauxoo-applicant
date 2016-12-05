@@ -11,7 +11,7 @@ CREATE TABLE employee_department(
 ); 
 CREATE TABLE employee(
   id serial PRIMARY KEY,
-  firs_name VARCHAR (50) NOT NULL,
+  first_name VARCHAR (50) NOT NULL,
   last_name VARCHAR (50) NOT NULL,
   department_id integer NOT NULL,
   boss_id serial NOT NULL,
@@ -51,10 +51,10 @@ INSERT INTO employee_department (name,description) VALUES ('Ventas', 'Lorem ipsu
 INSERT INTO employee_department (name,description) VALUES ('Estrategia', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim');
 INSERT INTO employee_department (name,description) VALUES ('Garantias', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim');
 
-INSERT INTO employee  (firs_name, last_name, department_id, boss_id ) VALUES ('Erika', 'Pinedo','5','1');
-INSERT INTO employee  (firs_name, last_name, department_id, boss_id ) VALUES ('Oriana', 'Castillo','4','1');
-INSERT INTO employee  (firs_name, last_name, department_id, boss_id ) VALUES ('Cesar', 'Rodriguez','3','1');
-INSERT INTO employee  (firs_name, last_name, department_id, boss_id ) VALUES ('Luis', 'Garcia','6','1');
+INSERT INTO employee  (first_name, last_name, department_id, boss_id ) VALUES ('Erika', 'Pinedo','5','1');
+INSERT INTO employee  (first_name, last_name, department_id, boss_id ) VALUES ('Oriana', 'Castillo','4','1');
+INSERT INTO employee  (first_name, last_name, department_id, boss_id ) VALUES ('Cesar', 'Rodriguez','3','1');
+INSERT INTO employee  (first_name, last_name, department_id, boss_id ) VALUES ('Luis', 'Garcia','6','1');
 
 INSERT INTO employee_hobby (name,description) VALUES ('Crossfit', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim');
 INSERT INTO employee_hobby (name,description) VALUES ('TRX', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim');
