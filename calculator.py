@@ -20,4 +20,4 @@ class CalculatorClass(object):
         acum = 0
         for num in num_list:
             acum = num + acum
-        return acum 
+        return acum

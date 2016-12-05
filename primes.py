@@ -25,7 +25,7 @@ class PrimeClass(object):
         elif num == 2:
             return True
         else:
-            aux = math.floor(num/2) 
+            aux = math.floor(num/2)
             while aux >= 2:
                 if num % aux == 0:
                     return False
