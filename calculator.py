@@ -19,6 +19,6 @@ class CalculatorClass(object):
         """
         #start function
         acum = 0
-        for i in num_list:
-            acum = i + acum
+        for num in num_list:
+            acum = num + acum
         return acum 

@@ -1,5 +1,7 @@
 """
-Class  PrimeClass  is conformed by the function is_prime that is in charge of determining if a numer X is prime or not
+Class  PrimeClass  is conformed by the function 
+is_prime that is in charge of determining 
+if a numer X is prime or not
 Import math library for use of the function floor
 """
 import math
@@ -15,7 +17,7 @@ class PrimeClass(object):
     def is_prime(self, num):
         """
         num is the number a value
-        aux auxiliary value for operations
+        aux auxiliary value for operatons
         """
         if num < 2:
             return False
